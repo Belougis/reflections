@@ -41,6 +41,11 @@ Summary:
 - git log -n 5
 - git branch
 - git branch -d branch1
+- git remote
+- git remote add origin git@github.com;xxx-xxx/zzz.git
+- git remote origin
+- git remote -v
+- git push origin master
 - working directory
 - staging area
 - repository
