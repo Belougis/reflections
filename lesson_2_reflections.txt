@@ -1,0 +1,46 @@
+﻿Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: A .git directory would be created. This stores information on the repository and the commits.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: The staging area is like Clearcase's private branch. It is a temporary / intermediate state where you can store your changes before committing to the repository.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: We can only add those files related to the one logical change to the staging area.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: A branch is like a view on Clearcase. It is useful when we want to make modifications without affecting the master branch.ls
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: It is easier to check the parent branches.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: The changes from both branches will be present in the latest branch.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Pros = save time, increase productivity. Cons = may make errors.
+
+Summary:
+
+- git init
+- git add
+- git status
+- git diff
+- git diff --staged
+- git commit
+- git reset --hard
+- git checkout master
+- git log --graph --oneline
+- git merge branch1 branch2
+- git log -n 5
+- git branch
+- git branch -d branch1
+- working directory
+- staging area
+- repository
