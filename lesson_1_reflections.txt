@@ -1,0 +1,29 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A: It's easier - only the lines that are changed are displayed.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A: You can have access to the history and code changes that were done to particular file.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+A: Pros = more control. Cons = human mistakes.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A: It depends on the type of files and work used for the version control system.
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: You can always revert back to original code as you have the code history.
+
+Summary
+=======
+- Sublime is a useful and simple text editor.
+- Git Bash can be used to execute unix style commands on Windows.
+- git clone
+- git log
+- git checkout
+- git diff
+
